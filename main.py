@@ -70,7 +70,6 @@ def task_4():
 
     lists = set(int(x) for x in user_input)
 
-    print_list = []
     print_list = sorted(lists)
 
     first_element, second_element = print_list[0], print_list[1]
