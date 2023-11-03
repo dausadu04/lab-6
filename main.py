@@ -105,4 +105,4 @@ def task2_6():
 
     print(get_unique_elements(lists))
 
-# task2_6()
+task2_6()
