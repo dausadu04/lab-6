@@ -4,8 +4,8 @@ import re
 def task_1():
     # "a": True, "b": False, "c": True
 
-    dauletsuper = input("Input: ")
-    user_input = re.sub(r'[.,!?:"]', '', dauletsuper).split()
+    akzhol = input("Input: ")
+    user_input = re.sub(r'[.,!?:"]', '', akzhol).split()
 
     my_dict = {}
 
@@ -69,12 +69,11 @@ def task_4():
     user_input = re.sub(r'[.,!?:"#]', '', user_input).split()
 
     lists = set(int(x) for x in user_input)
-
     print_list = sorted(lists)
 
-    first_element, second_element = print_list[0], print_list[1]
+    first, second = print_list[0], print_list[1]
 
-    print(first_element, second_element)
+    print(first, second)
 
 
 # task_4()
